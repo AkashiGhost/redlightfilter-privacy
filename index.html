@@ -19,15 +19,24 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="meta">RedLightFilter: night light · Effective 27 July 2026</p>
+    <p class="meta">RedLightFilter: night light · Effective 9 August 2026</p>
 
-    <p>RedLightFilter: night light is developed by Akash Manmohan. This release is a local UI preview.</p>
+    <p>RedLightFilter: night light, shown as Luna after installation, is developed by Akash Manmohan. It is a local screen-filter app for Android.</p>
 
     <h2>Data collection and sharing</h2>
     <p>This app does not collect, store, transmit, sell, or share personal or sensitive user data. It has no accounts, ads, analytics, payment SDK, or third-party data-collection SDK, and it requests no network permission.</p>
 
     <h2>Local app data</h2>
-    <p>The preview runs from files included in the app. The developer receives no user data. Any app data held locally by Android can be removed through Android's app-storage controls or by uninstalling the app.</p>
+    <p>Filter modes, strength, dim level, schedules, shortcuts, and other preferences are stored only on the device. The developer receives no user data. Local app data can be removed through Android's app-storage controls or by uninstalling the app.</p>
+
+    <h2>Permissions and device access</h2>
+    <ul>
+      <li><strong>Display over other apps:</strong> required to draw the coloured and dimming filter above other apps. This does not allow Luna to read screen contents.</li>
+      <li><strong>Foreground service:</strong> keeps a user-enabled filter running while other apps are open.</li>
+      <li><strong>Notifications:</strong> optional; provides an ongoing local control for pausing or turning off the filter.</li>
+      <li><strong>Start after reboot:</strong> restores an enabled filter locally after the device restarts.</li>
+      <li><strong>Usage access:</strong> optional and off by default; used only for user-configured per-app exceptions by checking which app is in the foreground. This information stays on the device and is not stored or transmitted by the developer.</li>
+    </ul>
 
     <h2 id="data-safety">Data safety</h2>
     <ul>
@@ -38,7 +47,10 @@
     </ul>
 
     <h2>Current functionality</h2>
-    <p>The controls simulate red-light, extra-dim, mode, and scheduling interfaces. This build does not apply a system-wide screen filter or run background schedules.</p>
+    <p>The app applies a system-wide coloured and extra-dim overlay, runs user-configured schedules locally, and offers local controls through its notification, Quick Settings tile, and home-screen widget. Android blocks overlays on protected surfaces such as some payment and system screens; Luna automatically steps aside on those surfaces.</p>
+
+    <h2>Children's privacy</h2>
+    <p>The app does not collect personal information from children or adults. A parent or guardian can remove all local app data by clearing storage or uninstalling the app.</p>
 
     <h2>Contact</h2>
     <p>Privacy questions can be sent to <a href="mailto:kumarmanmohan009@gmail.com">kumarmanmohan009@gmail.com</a>.</p>
